@@ -71,3 +71,4 @@ fi
 # Add exception for SSH and then enable UFW firewall
 ufw allow OpenSSH
 ufw --force enable
+
