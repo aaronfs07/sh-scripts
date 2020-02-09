@@ -1,10 +1,13 @@
 #!/bin/bash
+
+##Script created by Aaron Fletcher, for update please comment on my Github if#
+##something does not work! Thank you for testing                            #
 ########################
 ### SCRIPT VARIABLES ###
 ########################
 
 # Name of the user to create and grant sudo privileges
-USERNAME=ubuntu
+USERNAME=USERNAME
 
 # Whether to copy over the root user's `authorized_keys` file to the new sudo
 # user.
@@ -16,7 +19,7 @@ COPY_AUTHORIZED_KEYS_FROM_ROOT=false
 #     "ssh-rsa AAAAB..."
 # )
 OTHER_PUBLIC_KEYS_TO_ADD=(
-      "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArm4ZG9pPCdSpI2FzwXBOE/NwK62lcALjCC73eX1vsWvLr9JtfjMJSuB4pIIQanZBs+FrvWj1a+1QniP6CstltUoPdqhwoZFGG7dSIdD/Z8VD2jLg6NquXPkQzA5Dtxcnu/8ApI2V/4khbbu6QeqHZKCMkOzB0JbmJgw/Vfdf6qL6JLc2c2W2N4pbJ2Wo3+JXUXYYm7YjS/Tt+5Pi6a59z9kzuFL3HtEKw6LcimY7fMrMG2LG/LrGNdy+azgoiURdFgpLgu3Ef5vqtWF2lWxxNIpNj4IRPNlYYLVlMgbd0PtMeIVyrlb3rjHqzoeiKrEJPr8vU+2Uun9JcGj0B2/M9w=="
+      "SSH KEY PUBLIC!!!!!"
 )
 
 ####################
@@ -71,4 +74,3 @@ fi
 # Add exception for SSH and then enable UFW firewall
 ufw allow OpenSSH
 ufw --force enable
-
