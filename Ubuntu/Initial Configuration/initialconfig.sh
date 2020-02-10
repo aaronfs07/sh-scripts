@@ -21,6 +21,12 @@ COPY_AUTHORIZED_KEYS_FROM_ROOT=false
 OTHER_PUBLIC_KEYS_TO_ADD=(
       "SSH KEY PUBLIC!!!!!"
 )
+
+####################
+### SCRIPT LOGIC ###
+####################
+
+# Add sudo user and grant privileges
 useradd --create-home --shell "/bin/bash" --groups sudo "${USERNAME}"
 
 # Check whether the root account has a real password set
