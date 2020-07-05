@@ -1,3 +1,3 @@
-# sh-scripts
+Server Mangement Scripts
 
-This repository contains a listing of sh scripts for configuration of different devices and services. 
+This repository contains various scripts that I have made in order to allow for easy configuration or management of systems. 
